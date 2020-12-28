@@ -1,0 +1,42 @@
+.image{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-right: 5px;
+    border: 1px solid rgba(255, 255, 255, 0.342);
+    display: block;
+}
+
+.user{
+    /* border: 1px solid rgba(255, 255, 255, 0.342); */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin:0.2mm 0;
+    width: 100%;
+    padding: 2px 16px;
+    background-color: #343a40;
+    color:white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    font-family: Helvetica;
+}
+.user:hover p{
+    color:#fff;
+}
+.user:hover{
+    background-color: rgb(248, 139, 139);;
+}
+.user:hover .image{
+    border: 1px solid lightgreen;
+}
+.user p{
+    margin: 0; 
+}
+.active{
+    text-decoration: none;
+}
+.active li{
+    background-color: rgb(189, 103, 103);
+    border: none;
+}
